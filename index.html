@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#e9ece7">
+  <title>Saigon bowl | Vietnamesische Küche in Prenzlau</title>
+  <meta name="description" content="Entdecken Sie die Speisekarte von Saigon bowl in Prenzlau: vietnamesische Suppen, Reisnudeln, Currys und Bowls. Tischreservierung telefonisch unter +49 1522 1719999.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:title" content="Saigon bowl | Vietnamesische Küche in Prenzlau">
+  <meta property="og:description" content="Vietnamesische Küche, mitten in Prenzlau. Speisekarte entdecken und telefonisch reservieren.">
+  <meta property="og:image" content="assets/pho-illustration.webp">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preload" as="image" href="assets/pho-illustration.webp">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Restaurant","name":"Saigon bowl","servesCuisine":["Vietnamese","Asian"],"telephone":"+4915221719999","address":{"@type":"PostalAddress","streetAddress":"Georg-Dreke-Ring 60","postalCode":"17291","addressLocality":"Prenzlau","addressCountry":"DE"},"hasMap":"https://maps.app.goo.gl/hsDQvGHnR7wotJMA7"}
+  </script>
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Zum Inhalt springen</a>
+  <header class="site-header" id="top">
+    <div class="header-inner shell">
+      <a class="wordmark" href="#top" aria-label="Saigon bowl, zur Startseite"><span>saigon</span><span>bowl<span class="wordmark-dot">.</span></span></a>
+      <nav class="desktop-nav" aria-label="Hauptnavigation">
+        <a href="#speisekarte">Speisekarte</a><a href="#ueber-uns">Über uns</a><a href="#galerie">Galerie</a><a href="#kontakt">Kontakt</a>
+      </nav>
+      <a class="header-book" href="tel:+4915221719999">Tisch reservieren <span aria-hidden="true">↗</span></a>
+      <button class="menu-toggle" type="button" aria-controls="mobile-nav" aria-expanded="false" aria-label="Menü öffnen"><span></span><span></span></button>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile Navigation" hidden>
+      <a href="#speisekarte">Speisekarte</a><a href="#ueber-uns">Über uns</a><a href="#galerie">Galerie</a><a href="#kontakt">Kontakt</a>
+      <a class="mobile-book" href="tel:+4915221719999">Tisch reservieren <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <img class="hero-image" src="assets/pho-illustration.webp" alt="Illustrative Aufnahme einer vietnamesischen Phở mit Rindfleisch und frischen Kräutern" width="1774" height="887">
+      <div class="hero-shade"></div>
+      <div class="hero-inner shell">
+        <p class="eyebrow hero-eyebrow">Vietnamesische Küche · Prenzlau</p>
+        <h1 id="hero-title">Ein Stück <em>Saigon.</em><br>Hier bei uns.</h1>
+        <p class="hero-intro">Duftende Brühen, frische Kräuter und Gerichte, die man gern teilt.</p>
+        <div class="hero-actions"><a class="button button-light" href="tel:+4915221719999">Tisch reservieren <span aria-hidden="true">↗</span></a><a class="text-link hero-link" href="#speisekarte">Speisekarte entdecken <span aria-hidden="true">↘</span></a></div>
+      </div>
+      <p class="photo-note">Speiseaufnahme zur Illustration</p>
+    </section>
+
+    <section class="intro section-pad shell" id="ueber-uns" aria-labelledby="intro-title">
+      <div class="intro-top reveal"><span class="section-kicker">Willkommen bei Saigon bowl</span><span class="intro-location">Prenzlau, Brandenburg</span></div>
+      <div class="intro-grid">
+        <h2 id="intro-title" class="display-title reveal">Guter Geschmack<br>braucht <em>Zeit.</em></h2>
+        <div class="intro-copy reveal"><p>Bei Saigon bowl treffen vietnamesische Klassiker auf die Vielfalt der asiatischen Küche. Suppen, Reisnudeln, Currys und Bowls stehen auf unserer Karte.</p><a class="arrow-link" href="#speisekarte">Unsere Karte ansehen <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="feature-picture" aria-label="Einblick in die Speisen">
+      <div class="feature-photo reveal"><img src="assets/bun-bo-illustration.webp" alt="Illustrative Aufnahme einer Bun Bo Nam Bo Reisnudelschale" loading="lazy" width="1024" height="1536"></div>
+      <div class="feature-message reveal"><span class="section-kicker">Aus unserer Karte</span><h2>Frisch.<br>Würzig.<br><em>Vielseitig.</em></h2><p>Von der heißen Phở bis zur Reisschale mit Kräutern: Entdecken Sie Ihren Favoriten.</p><span class="image-disclaimer">Speiseaufnahme zur Illustration</span></div>
+    </section>
+
+    <section class="menu-section section-pad" id="speisekarte" aria-labelledby="menu-title">
+      <div class="shell"><div class="menu-heading reveal"><span class="section-kicker">Die Speisekarte</span><h2 id="menu-title" class="display-title">Für jeden <em>Appetit.</em></h2><p>Alle Gerichte und Preise aus unserer Speisekarte vor Ort. Varianten und Zutaten sind direkt beim Gericht aufgeführt.</p></div></div>
+      <nav class="category-nav" aria-label="Speisekartenkategorien"><div class="category-scroll shell" id="category-links"></div></nav>
+      <div id="menu-content" class="shell menu-content"></div>
+      <div class="shell menu-footnotes"><details><summary>Allergene und Zusatzstoffe anzeigen</summary><p id="allergen-legend"></p><p id="additive-legend"></p><p>Bei Fragen zu Allergenen wenden Sie sich bitte an unser Team.</p></details></div>
+    </section>
+
+    <section class="gallery section-pad shell" id="galerie" aria-labelledby="gallery-title">
+      <div class="gallery-heading reveal"><span class="section-kicker">Einblicke</span><h2 id="gallery-title" class="display-title">Auf den <em>Geschmack</em> kommen.</h2></div>
+      <div class="gallery-grid">
+        <figure class="gallery-tall reveal"><img src="assets/nem-ran-illustration.webp" alt="Illustrative Aufnahme knuspriger Nem Ran mit Kräutern" loading="lazy" width="1536" height="1024"><figcaption>Nem Ran <span>Speiseaufnahme zur Illustration</span></figcaption></figure>
+        <figure class="gallery-small reveal"><img src="assets/pho-illustration.webp" alt="Illustrative Aufnahme einer Phở mit Kräutern und Limette" loading="lazy" width="1774" height="887"><figcaption>Phở Ha Noi <span>Speiseaufnahme zur Illustration</span></figcaption></figure>
+        <figure class="gallery-small gallery-board reveal"><img src="image_1789581264845.jpg" alt="Originale Speisekartentafel von Saigon bowl vor Ort" loading="lazy" width="2048" height="1536"><figcaption>Unsere Karte vor Ort <span>Originalaufnahme</span></figcaption></figure>
+      </div>
+    </section>
+
+    <section class="visit section-pad" id="kontakt" aria-labelledby="visit-title"><div class="shell visit-grid"><div class="visit-heading reveal"><span class="section-kicker">Besuchen Sie uns</span><h2 id="visit-title" class="display-title">Bis <em>bald</em><br>in Prenzlau.</h2><p>Wir freuen uns auf Ihren Besuch. Für eine Tischreservierung rufen Sie uns einfach an.</p><a class="button button-dark" href="tel:+4915221719999">Tisch reservieren <span aria-hidden="true">↗</span></a></div><div class="visit-details reveal"><div><h3>Adresse</h3><p>Georg-Dreke-Ring 60<br>17291 Prenzlau, Deutschland</p><a class="arrow-link" href="https://maps.app.goo.gl/hsDQvGHnR7wotJMA7" target="_blank" rel="noopener noreferrer">Route planen <span aria-hidden="true">↗</span></a></div><div><h3>Öffnungszeiten</h3><p>Die aktuellen Zeiten finden Sie in unserem Google Maps Eintrag.</p><a class="arrow-link" href="https://maps.app.goo.gl/hsDQvGHnR7wotJMA7" target="_blank" rel="noopener noreferrer">Zeiten auf Google Maps <span aria-hidden="true">↗</span></a></div><div><h3>Telefon</h3><p><a href="tel:+4915221719999">+49 1522 1719999</a></p><a class="arrow-link" href="tel:+4915221719999">Anrufen <span aria-hidden="true">↗</span></a></div></div></div></section>
+  </main>
+
+  <footer class="site-footer"><div class="shell footer-top"><div><a class="wordmark footer-wordmark" href="#top"><span>saigon</span><span>bowl<span class="wordmark-dot">.</span></span></a><p>Vietnamesische Küche in Prenzlau.</p></div><div><h2>Besuchen</h2><p>Georg-Dreke-Ring 60<br>17291 Prenzlau</p><a href="tel:+4915221719999">+49 1522 1719999</a><p><a href="https://maps.app.goo.gl/hsDQvGHnR7wotJMA7" target="_blank" rel="noopener noreferrer">Öffnungszeiten auf Google Maps ↗</a></p></div><div><h2>Entdecken</h2><a href="#speisekarte">Speisekarte</a><a href="#ueber-uns">Über uns</a><a href="tel:+4915221719999">Reservierung</a><a href="#kontakt">Kontakt</a></div></div><div class="shell footer-bottom"><span>© <span id="year">2026</span> Saigon bowl</span><div><a href="impressum.html">Impressum</a><a href="datenschutz.html">Datenschutz</a></div></div></footer>
+  <a class="mobile-sticky-cta" href="tel:+4915221719999">Tisch reservieren <span aria-hidden="true">↗</span></a>
+</body>
+</html>
